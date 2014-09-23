@@ -1,0 +1,1726 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "response": {
+    "venues": [
+      {
+        "id": "5101eb39e4b055abad13f702",
+        "name": "park burger",
+        "contact": {
+          "phone": "5104791402",
+          "formattedPhone": "(510) 479-1402"
+        },
+        "location": {
+          "address": "4218 Park Blvd",
+          "crossStreet": "Glenfield",
+          "lat": 37.80733265795731,
+          "lng": -122.22192088390463,
+          "distance": 2463,
+          "postalCode": "94602",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "4218 Park Blvd (Glenfield)",
+            "Oakland, CA 94602",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 409,
+          "usersCount": 200,
+          "tipCount": 9
+        },
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/park-burger/5101eb39e4b055abad13f702/menu",
+          "mobileUrl": "https://foursquare.com/v/5101eb39e4b055abad13f702/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "venuePage": {
+          "id": "92035144"
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "51671516e4b0f53b559e4e9d",
+        "name": "Umami Burger",
+        "contact": {
+          "phone": "5108998626",
+          "formattedPhone": "(510) 899-8626"
+        },
+        "location": {
+          "address": "2100 Franklin St #2190",
+          "crossStreet": "at 22nd St",
+          "lat": 37.810691595342966,
+          "lng": -122.26664322479189,
+          "distance": 1811,
+          "postalCode": "94612",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2100 Franklin St #2190 (at 22nd St)",
+            "Oakland, CA 94612",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 1668,
+          "usersCount": 1144,
+          "tipCount": 28
+        },
+        "url": "http://www.umami.com/umami-burger/eats/umami-union/",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/umami-burger/51671516e4b0f53b559e4e9d/menu",
+          "mobileUrl": "https://foursquare.com/v/51671516e4b0f53b559e4e9d/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4c34d8c316adc928e4dbc59c",
+        "name": "Burger Meister",
+        "contact": {
+          "phone": "5108653032",
+          "formattedPhone": "(510) 865-3032"
+        },
+        "location": {
+          "address": "2319 Central Ave",
+          "lat": 37.764489,
+          "lng": -122.24335079,
+          "distance": 4218,
+          "postalCode": "94501",
+          "cc": "US",
+          "city": "Alameda",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2319 Central Ave",
+            "Alameda, CA 94501",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 111,
+          "usersCount": 79,
+          "tipCount": 1
+        },
+        "url": "http://www.burgermeistersf.com",
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 1,
+          "summary": "One person here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 1,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4bc61a3651b376b0c6fd1a6f",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5105345469",
+          "formattedPhone": "(510) 534-5469",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "1541 E 12th St",
+          "crossStreet": "14th Ave.",
+          "lat": 37.788097858428955,
+          "lng": -122.24616050720215,
+          "distance": 1581,
+          "postalCode": "94606",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "1541 E 12th St (14th Ave.)",
+            "Oakland, CA 94606",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 261,
+          "usersCount": 132,
+          "tipCount": 4
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4bc61a3651b376b0c6fd1a6f/menu",
+          "mobileUrl": "https://foursquare.com/v/4bc61a3651b376b0c6fd1a6f/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "13284",
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "534b0222498e30ac34ae7410",
+        "name": "Annex Burger",
+        "contact": {},
+        "location": {
+          "address": "468 3rd Street",
+          "lat": 37.797157287597656,
+          "lng": -122.27635955810547,
+          "distance": 2456,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "468 3rd Street",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 126,
+          "usersCount": 95,
+          "tipCount": 8
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f45280119836ed00198f5ac",
+        "name": "Adams Burger",
+        "contact": {
+          "phone": "5108345106",
+          "formattedPhone": "(510) 834-5106"
+        },
+        "location": {
+          "address": "3401 Lakeshore Ave",
+          "lat": 37.811121,
+          "lng": -122.242739,
+          "distance": 1150,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "3401 Lakeshore Ave",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "540a0277498e32038fcbbcb4",
+        "name": "JJ Burger",
+        "contact": {
+          "phone": "5104510633",
+          "formattedPhone": "(510) 451-0633"
+        },
+        "location": {
+          "address": "3415 Grand Ave",
+          "crossStreet": "Elwood Street",
+          "lat": 37.81405589499437,
+          "lng": -122.24657893180846,
+          "distance": 1348,
+          "postalCode": "94610",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "3415 Grand Ave (Elwood Street)",
+            "Oakland, CA 94610",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "533f0194498ec8724fd35c8a",
+        "name": "Burger Bistro",
+        "contact": {},
+        "location": {
+          "address": "19th And Webster",
+          "lat": 37.806102429156944,
+          "lng": -122.26326463651095,
+          "distance": 1319,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "19th And Webster",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14e941735",
+            "name": "American Restaurant",
+            "pluralName": "American Restaurants",
+            "shortName": "American",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "50c00cfae4b041f0f24a3c83",
+        "name": "510 Burger",
+        "contact": {},
+        "location": {
+          "lat": 37.80749960546333,
+          "lng": -122.26404005968672,
+          "distance": 1441,
+          "postalCode": "94133",
+          "cc": "US",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "San Francisco, CA 94133",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 10,
+          "usersCount": 8,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4e8249d29adfd3a8febd2cd0",
+        "name": "Judy's Burger",
+        "contact": {
+          "phone": "5105351888",
+          "formattedPhone": "(510) 535-1888"
+        },
+        "location": {
+          "address": "2691 Fruitvale Ave",
+          "lat": 37.79050918116041,
+          "lng": -122.22051902648992,
+          "distance": 2829,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2691 Fruitvale Ave",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 26,
+          "usersCount": 14,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4aef4139f964a520f9d621e3",
+        "name": "Burger Gourmet",
+        "contact": {
+          "phone": "5102689022",
+          "formattedPhone": "(510) 268-9022"
+        },
+        "location": {
+          "address": "351 19th St",
+          "crossStreet": "Webster",
+          "lat": 37.806812834028854,
+          "lng": -122.26675399636426,
+          "distance": 1635,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "351 19th St (Webster)",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 143,
+          "usersCount": 88,
+          "tipCount": 4
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4fc3f204e4b06621d7917b5f",
+        "name": "Victory Burger",
+        "contact": {
+          "phone": "5106538322",
+          "formattedPhone": "(510) 653-8322",
+          "twitter": "victoryburger",
+          "facebook": "171433316302375",
+          "facebookUsername": "victoryburger",
+          "facebookName": "Victory Burger"
+        },
+        "location": {
+          "address": "1099 Alcatraz Ave",
+          "crossStreet": "San Pablo Ave & Salem St",
+          "lat": 37.84694235425929,
+          "lng": -122.28461994267244,
+          "distance": 5885,
+          "postalCode": "94608",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "1099 Alcatraz Ave (San Pablo Ave & Salem St)",
+            "Oakland, CA 94608",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 710,
+          "usersCount": 411,
+          "tipCount": 13
+        },
+        "url": "http://victoryburger.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/victory-burger/4fc3f204e4b06621d7917b5f/menu",
+          "mobileUrl": "https://foursquare.com/v/4fc3f204e4b06621d7917b5f/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "venuePage": {
+          "id": "77556505"
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f44d99019836ed00196f758",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5102610450",
+          "formattedPhone": "(510) 261-0450"
+        },
+        "location": {
+          "address": "3568 Gray St",
+          "lat": 37.784018,
+          "lng": -122.214146,
+          "distance": 3678,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "3568 Gray St",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4c4a0b7cf7cc1b8d6dcfdb3d",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5104360280",
+          "formattedPhone": "(510) 436-0280",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "4200 International Blvd",
+          "crossStreet": "at 42nd Ave.",
+          "lat": 37.7733354,
+          "lng": -122.21555279,
+          "distance": 4357,
+          "postalCode": "94601",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "4200 International Blvd (at 42nd Ave.)",
+            "Oakland, CA 94601",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 121,
+          "usersCount": 67,
+          "tipCount": 0
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4c4a0b7cf7cc1b8d6dcfdb3d/menu",
+          "mobileUrl": "https://foursquare.com/v/4c4a0b7cf7cc1b8d6dcfdb3d/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "2288",
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4b987a7ef964a520004435e3",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5105212378",
+          "formattedPhone": "(510) 521-2378",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "1901 Webster St",
+          "crossStreet": "at Eagle Ave.",
+          "lat": 37.778478,
+          "lng": -122.27683413333334,
+          "distance": 3585,
+          "postalCode": "94501",
+          "cc": "US",
+          "city": "Alameda",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "1901 Webster St (at Eagle Ave.)",
+            "Alameda, CA 94501",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 236,
+          "usersCount": 96,
+          "tipCount": 3
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4b987a7ef964a520004435e3/menu",
+          "mobileUrl": "https://foursquare.com/v/4b987a7ef964a520004435e3/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "4514",
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "508ecb02e4b03b8012e824bc",
+        "name": "Alameda Burger",
+        "contact": {},
+        "location": {
+          "address": "1520 Park St",
+          "crossStreet": "Webb Ave",
+          "lat": 37.765851,
+          "lng": -122.241131,
+          "distance": 4097,
+          "postalCode": "94501",
+          "cc": "US",
+          "city": "Alameda",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "1520 Park St (Webb Ave)",
+            "Alameda, CA 94501",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 4,
+          "usersCount": 4,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4b805257f964a520ca6730e3",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5105234810",
+          "formattedPhone": "(510) 523-4810",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "2200 Otis Dr",
+          "lat": 37.75905118433507,
+          "lng": -122.25154398217248,
+          "distance": 4797,
+          "postalCode": "94501",
+          "cc": "US",
+          "city": "Alameda",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2200 Otis Dr",
+            "Alameda, CA 94501",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 346,
+          "usersCount": 176,
+          "tipCount": 3
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4b805257f964a520ca6730e3/menu",
+          "mobileUrl": "https://foursquare.com/v/4b805257f964a520ca6730e3/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "2495",
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4dc3d7ed2271f27051035b5a",
+        "name": "Parkway Pizza",
+        "contact": {
+          "phone": "4157811300",
+          "formattedPhone": "(415) 781-1300"
+        },
+        "location": {
+          "address": "101 California St",
+          "lat": 37.792855,
+          "lng": -122.395113,
+          "distance": 12881,
+          "postalCode": "94111",
+          "cc": "US",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "101 California St",
+            "San Francisco, CA 94111",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/parkway-pizza/4dc3d7ed2271f27051035b5a/menu",
+          "mobileUrl": "https://foursquare.com/v/4dc3d7ed2271f27051035b5a/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4e4d0d69bd413c4cc66e4334",
+        "name": "Parkway Pizza",
+        "contact": {
+          "phone": "4157811300",
+          "formattedPhone": "(415) 781-1300"
+        },
+        "location": {
+          "address": "5 Perry St",
+          "lat": 37.783228,
+          "lng": -122.395426,
+          "distance": 13038,
+          "postalCode": "94107",
+          "cc": "US",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "5 Perry St",
+            "San Francisco, CA 94107",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1ca941735",
+            "name": "Pizza Place",
+            "pluralName": "Pizza Places",
+            "shortName": "Pizza",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/pizza_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/parkway-pizza/4e4d0d69bd413c4cc66e4334/menu",
+          "mobileUrl": "https://foursquare.com/v/4e4d0d69bd413c4cc66e4334/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "518029fce4b03e61a65824c2",
+        "name": "Fiveten Burger",
+        "contact": {},
+        "location": {
+          "lat": 37.8451044249767,
+          "lng": -122.29125937315804,
+          "distance": 6051,
+          "cc": "US",
+          "city": "Emeryville",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "Emeryville, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 19,
+          "usersCount": 10,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f8b2097e4b057e2820809d8",
+        "name": "Burger Baron",
+        "contact": {},
+        "location": {
+          "lat": 37.86384582519531,
+          "lng": -122.2492904663086,
+          "distance": 6872,
+          "postalCode": "94704",
+          "cc": "US",
+          "city": "Berkeley",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "Berkeley, CA 94704",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4e1e1672ae6008881fcfaaee",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5106394563",
+          "formattedPhone": "(510) 639-4563",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "7200 Bancroft Ave",
+          "lat": 37.76762942202309,
+          "lng": -122.17840488440787,
+          "distance": 7311,
+          "postalCode": "94605",
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "7200 Bancroft Ave",
+            "Oakland, CA 94605",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 103,
+          "usersCount": 58,
+          "tipCount": 1
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4e1e1672ae6008881fcfaaee/menu",
+          "mobileUrl": "https://foursquare.com/v/4e1e1672ae6008881fcfaaee/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "4760",
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f32858019836c91c7dff246",
+        "name": "Sumo Burger",
+        "contact": {
+          "phone": "5105482888",
+          "formattedPhone": "(510) 548-2888"
+        },
+        "location": {
+          "address": "2433 Durant Ave",
+          "lat": 37.867647,
+          "lng": -122.260529,
+          "distance": 7363,
+          "cc": "US",
+          "city": "Berkeley",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2433 Durant Ave",
+            "Berkeley, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f32631b19836c91c7d2d038",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5106441766",
+          "formattedPhone": "(510) 644-1766"
+        },
+        "location": {
+          "address": "2011 Shattuck Ave",
+          "lat": 37.872128,
+          "lng": -122.267804,
+          "distance": 7965,
+          "cc": "US",
+          "city": "Berkeley",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2011 Shattuck Ave",
+            "Berkeley, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 2,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "url": "http://www.burgerking.com",
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f320e8a19833175d60c34d6",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5105289074",
+          "formattedPhone": "(510) 528-9074"
+        },
+        "location": {
+          "address": "817 Delaware St",
+          "lat": 37.870605,
+          "lng": -122.29836,
+          "distance": 8767,
+          "cc": "US",
+          "city": "Berkeley",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "817 Delaware St",
+            "Berkeley, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "url": "http://burgerking.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4f320e8a19833175d60c34d6/menu",
+          "mobileUrl": "https://foursquare.com/v/4f320e8a19833175d60c34d6/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f323b9e19836c91c7c3449e",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5106330566",
+          "formattedPhone": "(510) 633-0566"
+        },
+        "location": {
+          "address": "8929 MacArthur Blvd",
+          "lat": 37.756207,
+          "lng": -122.161575,
+          "distance": 9244,
+          "cc": "US",
+          "city": "Oakland",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "8929 MacArthur Blvd",
+            "Oakland, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4bc92e4068f976b085035d83",
+        "name": "Burger Depot",
+        "contact": {
+          "phone": "5105273220",
+          "formattedPhone": "(510) 527-3220"
+        },
+        "location": {
+          "address": "1116 Solano Ave",
+          "lat": 37.890293,
+          "lng": -122.298015,
+          "distance": 10715,
+          "cc": "US",
+          "city": "Albany",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "1116 Solano Ave",
+            "Albany, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14e941735",
+            "name": "American Restaurant",
+            "pluralName": "American Restaurants",
+            "shortName": "American",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 66,
+          "usersCount": 54,
+          "tipCount": 3
+        },
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-depot/4bc92e4068f976b085035d83/menu",
+          "mobileUrl": "https://foursquare.com/v/4bc92e4068f976b085035d83/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4bd10cb7caff9521992ed0f0",
+        "name": "Burger King",
+        "contact": {
+          "phone": "5103839838",
+          "formattedPhone": "(510) 383-9838",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "1934 Davis St",
+          "lat": 37.7183,
+          "lng": -122.18200553,
+          "distance": 11043,
+          "postalCode": "94577",
+          "cc": "US",
+          "city": "San Leandro",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "1934 Davis St",
+            "San Leandro, CA 94577",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 616,
+          "usersCount": 224,
+          "tipCount": 4
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king/4bd10cb7caff9521992ed0f0/menu",
+          "mobileUrl": "https://foursquare.com/v/4bd10cb7caff9521992ed0f0/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "10833",
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4f329f1b19836c91c7e99ef2",
+        "name": "Giant Burger",
+        "contact": {
+          "phone": "5103578494",
+          "formattedPhone": "(510) 357-8494"
+        },
+        "location": {
+          "address": "2113 Marina Blvd",
+          "lat": 37.705417,
+          "lng": -122.178918,
+          "distance": 12412,
+          "cc": "US",
+          "city": "San Leandro",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "2113 Marina Blvd",
+            "San Leandro, CA",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "referralId": "v-1411257584"
+      },
+      {
+        "id": "4bb2627414cfd13a57dd14ab",
+        "name": "Burger King",
+        "contact": {
+          "phone": "9253764760",
+          "formattedPhone": "(925) 376-4760",
+          "twitter": "burgerking"
+        },
+        "location": {
+          "address": "470 Moraga Rd",
+          "lat": 37.858722,
+          "lng": -122.124596,
+          "distance": 12634,
+          "postalCode": "94556",
+          "cc": "US",
+          "city": "Moraga",
+          "state": "CA",
+          "country": "United States",
+          "formattedAddress": [
+            "470 Moraga Rd",
+            "Moraga, CA 94556",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss1.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 149,
+          "usersCount": 58,
+          "tipCount": 1
+        },
+        "url": "http://www.bk.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Menu",
+          "label": "Menu",
+          "anchor": "View Menu",
+          "url": "https://foursquare.com/v/burger-king-moraga-ca/4bb2627414cfd13a57dd14ab/menu",
+          "mobileUrl": "https://foursquare.com/v/4bb2627414cfd13a57dd14ab/device_menu"
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "0 people here",
+          "groups": []
+        },
+        "storeId": "10419",
+        "referralId": "v-1411257584"
+      }
+    ]
+  }
+}
