@@ -2,7 +2,7 @@
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
-
+# require 'webmock/rspec'
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
 # run as spec files by default. This means that files in spec/support that end
@@ -25,6 +25,10 @@ RSpec.configure do |config|
   # examples within a transaction, remove the following line or assign false
   # instead of true.
   config.use_transactional_fixtures = false
+
+  # config.before(:each) do
+  #   stub_request(:any, /api.foursquare.com/).to_rack(FakeFourSquare)
+  # end
 
   config.before(:suite) do
     DatabaseCleaner.strategy = :truncation
