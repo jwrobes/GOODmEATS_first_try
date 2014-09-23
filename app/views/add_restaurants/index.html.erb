@@ -1,0 +1,29 @@
+ <% flash.each do |name, msg| %>
+      <%= content_tag :div, msg, class: name %>
+ <% end %>
+
+
+
+<h2>Find Restaurant</h2>
+
+<%= form_tag add_restaurants_path, method: 'get' do %>
+	<p>
+		<%= text_field_tag :search  %>
+	</p>
+	<%= submit_tag "Search", :name => nil %>
+<% end %>
+
+<% if @new_restaurants %>
+	<% for new_restaurant in @new_restaurants %>
+		<li>
+			<%= new_restaurant.name %> |
+			<%= link_to "Add", new_restaurant_path(Restaurant.new) %>
+		 </li>
+	<% end %>
+<% end %>
+
+<% unless @lat_lng %>
+<script>
+	testMe.getLocation();
+</script>
+<% end %>
