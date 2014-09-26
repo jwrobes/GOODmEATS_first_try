@@ -20,7 +20,7 @@ class Foursquare
 	def parse_data(data)
 		restaurants_hash = data["response"]["venues"]
 		restaurants_hash.map do |venue|
-			New_Restaurant.new(venue["name"],venue["location"])
+			New_Restaurant.new(venue["name"],venue["location"], venue["id"])
 		end
 	end	
 

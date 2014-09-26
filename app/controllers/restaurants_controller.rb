@@ -1,11 +1,11 @@
 class RestaurantsController < ApplicationController
 
 	def new
-		# if params[:search]
-		# foursqaure = Foursquare.search({lat_and_long:})
-		# @restaurant = Restaurant.new
-		# @lat_lng = cookies[:lat_lng].split("|")
-		# binding.pry
+		if Restaurant.find_by_foursquare_id(params["foursqaure_id"])
+			@restaurant = Restaurant.find_by_foursquare_id(params["foursqaure_id"])
+		else
+			@restaurant = Restaurant.new({name: params["name"], location: params["location"], foursquare_id: params["foursquare_id"] })
+		end
 	end
 
 	def index
