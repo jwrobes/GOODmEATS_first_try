@@ -1,4 +1,3 @@
-// class @GeoLocation
 	
 
 // 	getMe: ->
