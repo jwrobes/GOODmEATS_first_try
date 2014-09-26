@@ -33,6 +33,8 @@ group :development, :test do
   gem 'shoulda-matchers'
   # gem 'jasmine'
   gem 'jasmine-rails'
+  # gem 'capybara-webkit'
+  gem 'show_me_the_cookies'
 end
 group :test do
   gem 'capybara'
