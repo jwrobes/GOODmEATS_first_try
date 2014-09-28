@@ -131,7 +131,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="219" y="444" name="source_meat">
+<table x="122" y="437" name="sourcemeats">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -143,11 +143,17 @@
 <datatype>VARCHAR</datatype>
 <default>NULL</default><relation table="sources" row="id" />
 </row>
+<row name="description" null="1" autoincrement="0">
+<datatype>MEDIUMTEXT</datatype>
+<default>NULL</default></row>
+<row name="rating" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="249" y="143" name="restaurant_meat">
+<table x="249" y="143" name="restaurantmeats">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -159,6 +165,13 @@
 <datatype>VARCHAR</datatype>
 <default>NULL</default><relation table="meats" row="id" />
 </row>
+<row name="sourcemeat_id" null="1" autoincrement="0">
+<datatype>VARCHAR</datatype>
+<default>NULL</default><relation table="sourcemeats" row="id" />
+</row>
+<row name="description" null="1" autoincrement="0">
+<datatype>MEDIUMTEXT</datatype>
+<default>NULL</default></row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
