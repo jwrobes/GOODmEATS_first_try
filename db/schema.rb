@@ -11,11 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140926183620) do
+ActiveRecord::Schema.define(version: 20140929050547) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "hstore"
+
+  create_table "meats", force: true do |t|
+    t.string "name"
+  end
+
+  create_table "restaurantmeats", force: true do |t|
+    t.string "restaurant_id"
+    t.string "meat_id"
+    t.string "sourcemeat_id"
+    t.text   "description"
+  end
 
   create_table "restaurants", force: true do |t|
     t.string "name"
@@ -23,6 +34,18 @@ ActiveRecord::Schema.define(version: 20140926183620) do
     t.float  "latitude"
     t.float  "longitude"
     t.hstore "location"
+  end
+
+  create_table "sourcemeats", force: true do |t|
+    t.string "meat_id"
+    t.string "source_id"
+    t.text   "description"
+  end
+
+  create_table "sources", force: true do |t|
+    t.string "name"
+    t.text   "url"
+    t.text   "description"
   end
 
   create_table "users", force: true do |t|
