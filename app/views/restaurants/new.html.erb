@@ -1,3 +1,9 @@
 <h2>	<%= @restaurant.name %> </h2>
 
-<h3>Add Meat</h3>
+<div class="new-meat">
+	<h3>Add Meat</h3>
+	<a href="#">Add Meat</a>
+	<%=simple_form_for @restaurantmeat, html: {class: 'meat-form', id: "select-meat-form"}, remote: true do |f| %>
+		 	<%=  f.input :meat, collection: Meat.all.pluck(:name) %>
+	<% end %>
+</div>

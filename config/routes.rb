@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :users
   resources :restaurants
   resources :add_restaurants
+  resources :restaurantmeats
 end

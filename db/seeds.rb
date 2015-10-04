@@ -7,3 +7,13 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 user = CreateAdminService.new.call
 puts 'CREATED ADMIN USER: ' << user.email
+
+# create meats for database
+
+meats = Meat.create([{name: 'Beef'}, {name: 'Pork'}, {name: 'Chicken'}, {name: 'Lamb'}])
+
+# create sources for database
+
+sources = Source.create([{name: 'Marin Sun Farms'}, {name: "Mary's Chicken"}])
+
+

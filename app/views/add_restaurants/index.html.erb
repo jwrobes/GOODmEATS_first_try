@@ -18,7 +18,7 @@
 			<li>
 				<%= new_restaurant.name %> |
 				<%= new_restaurant.location['address'] %> <%= new_restaurant.location['city'] %>, <%= new_restaurant.location['state'] %>  | 
-				<%= link_to "Select Restaurant", new_restaurant_path(name: new_restaurant.name, location: new_restaurant.location), foursquare_id: new_restaurant.foursquare_id %>
+				<%= link_to "Select Restaurant", new_restaurant_path(name: new_restaurant.name, location: new_restaurant.location, foursquare_id: new_restaurant.foursquare_id) %>
 			 </li>
 		<% end %>
 	<% end %>
