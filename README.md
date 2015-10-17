@@ -1,2 +1,2 @@
 
-![Schema](http://imgur.com/jyUIGec)
+![Schema](http://i.imgur.com/jyUIGec.png?1)
