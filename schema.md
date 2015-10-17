@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- SQL XML created by WWW SQL Designer, http://code.google.com/p/wwwsqldesigner/ -->
-<!-- Active URL: https://socrates.devbootcamp.com/sql -->
+<!-- SQL XML created by WWW SQL Designer,
+http://code.google.com/p/wwwsqldesigner/ -->
+<!-- Active URL: https://schemadesigner.devbootcamp.com/ -->
 <sql>
 <datatypes db="mysql">
   <group label="Numeric" color="rgb(238,238,170)">
     <type label="Integer" length="0" sql="INTEGER" re="INT" quote=""/>
     <type label="Decimal" length="1" sql="DECIMAL" re="DEC" quote=""/>
     <type label="Single precision" length="0" sql="FLOAT" quote=""/>
-    <type label="Double precision" length="0" sql="DOUBLE" re="DOUBLE" quote=""/>
+    <type label="Double precision" length="0" sql="DOUBLE" re="DOUBLE"
+quote=""/>
   </group>
 
   <group label="Character" color="rgb(255,200,200)">
@@ -32,7 +34,7 @@
     <type label="SET" length="1" sql="SET" quote=""/>
     <type label="Bit" length="0" sql="bit" quote=""/>
   </group>
-</datatypes><table x="773" y="257" name="users">
+</datatypes><table x="765" y="433" name="users">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -46,7 +48,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="476" y="47" name="restaurants">
+<table x="493" y="135" name="restaurants">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -75,7 +77,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="743" y="415" name="items">
+<table x="275" y="232" name="menu_items">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -89,15 +91,11 @@
 <datatype>INTEGER</datatype>
 <default>NULL</default><relation table="restaurants" row="id" />
 </row>
-<row name="source_id" null="1" autoincrement="0">
-<datatype>INTEGER</datatype>
-<default>NULL</default><relation table="sources" row="id" />
-</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="469" y="434" name="sources">
+<table x="474" y="482" name="sources">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -105,7 +103,7 @@
 <datatype>VARCHAR</datatype>
 <default>NULL</default></row>
 <row name="location" null="1" autoincrement="0">
-<datatype>INTEGER</datatype>
+<datatype>MEDIUMTEXT</datatype>
 <default>NULL</default></row>
 <row name="url" null="1" autoincrement="0">
 <datatype>MEDIUMTEXT</datatype>
@@ -120,50 +118,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="213" y="303" name="meats">
-<row name="id" null="1" autoincrement="1">
-<datatype>INTEGER</datatype>
-<default>NULL</default></row>
-<row name="name" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
-<default>NULL</default></row>
-<key type="PRIMARY" name="">
-<part>id</part>
-</key>
-</table>
-<table x="219" y="444" name="source_meat">
-<row name="id" null="1" autoincrement="1">
-<datatype>INTEGER</datatype>
-<default>NULL</default></row>
-<row name="meat_id" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
-<default>NULL</default><relation table="meats" row="id" />
-</row>
-<row name="source_id" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
-<default>NULL</default><relation table="sources" row="id" />
-</row>
-<key type="PRIMARY" name="">
-<part>id</part>
-</key>
-</table>
-<table x="249" y="143" name="restaurant_meat">
-<row name="id" null="1" autoincrement="1">
-<datatype>INTEGER</datatype>
-<default>NULL</default></row>
-<row name="restaurant_id" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
-<default>NULL</default><relation table="restaurants" row="id" />
-</row>
-<row name="meat_id" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
-<default>NULL</default><relation table="meats" row="id" />
-</row>
-<key type="PRIMARY" name="">
-<part>id</part>
-</key>
-</table>
-<table x="700" y="56" name="users_restaurants">
+<table x="706" y="248" name="users_restaurants">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -182,4 +137,24 @@
 <part>id</part>
 </key>
 </table>
+<table x="274" y="421" name="meats">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="name" null="1" autoincrement="0">
+<datatype>MEDIUMTEXT</datatype>
+<default>NULL</default></row>
+<row name="item_id" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="menu_items" row="id" />
+</row>
+<row name="source_id" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="sources" row="id" />
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
 </sql>
+
