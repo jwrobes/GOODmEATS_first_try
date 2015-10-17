@@ -1,2 +1,2 @@
 
-![Schema](http://i.imgur.com/pHn0ugG.png)
+![Schema](http://imgur.com/jyUIGec)
