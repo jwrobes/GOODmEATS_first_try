@@ -4,24 +4,48 @@ class Foursquare
 	include HTTParty
 	base_uri 'https://api.foursquare.com'
 
-	def initialize(search_params={})
-		food = '4d4b7105d754a06374d81259'
-		@lat_and_long = search_params[:lat_and_long]
-		@options =  {:query => {v: "20131016", ll:@lat_and_long, categoryId: food, query:search_params[:query], "client_id"=>"A0HOXGS3TDR3NVABD1Q2LGQ5WDGN4USBKPVUHDMHMCOHSZQ4","client_secret"=> "MU3RCF4YXGVELYX5FNTPTYUIMI1DRIPU2O11CN5UQ1VY1HE2"}}
-	end
+  def initialize(search_params={})
+    @lat_and_long = search_params[:lat_and_long]
+    @query = search_params[:query]
+  end
 
-	def search
-		response = self.class.get('/v2/venues/search', @options)
-		if response
-			return parse_data(response)
-		end
-	end
+  def search
+    begin
+      return parsed_response_data unless response_invalid?
+      raise StandardError.new(parse_error)
+    rescue => e
+      Rails.logger.error e
+      return false
+    end
+  end
 
-	def parse_data(data)
-		restaurants_hash = data["response"]["venues"]
-		restaurants_hash.map do |venue|
-			New_Restaurant.new(venue["name"],venue["location"], venue["id"])
-		end
-	end	
+  def foursquare_options
+    food = '4d4b7105d754a06374d81259'
+    @foursquare_options ||= ({:query =>
+                   {v: "20131016", ll:@lat_and_long,
+                    categoryId: food, query:@query,
+                    "client_id"=>ENV['FOURSQUARE_CLIENT_ID'],
+                    "client_secret"=>ENV['FOURSQUARE_CLIENT_SECRET']}
+                   })
+  end
+
+  def response
+    @response ||= self.class.get('/v2/venues/search', foursquare_options)
+  end
+
+  def response_invalid?
+    response['meta']['code'] != 200
+  end
+
+  def parse_error
+    "ERROR: #{response['meta']['errorType']}; #{response['meta']['errorDetail']}"
+  end
+
+  def parsed_response_data
+    restaurants_hash = response["response"]["venues"]
+    restaurants_hash.map do |venue|
+      New_Restaurant.new(venue["name"],venue["location"], venue["id"])
+    end
+  end	
 
 end
