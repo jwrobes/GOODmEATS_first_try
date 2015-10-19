@@ -26,6 +26,7 @@ group :development do
   gem 'rails_layout'
 end
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
