@@ -15,6 +15,9 @@ gem 'pg'
 gem 'pundit'
 gem 'simple_form'
 gem 'travis-lint'
+gem 'httparty'
+gem 'sinatra'
+gem 'geocoder'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
@@ -23,15 +26,24 @@ group :development do
   gem 'rails_layout'
 end
 group :development, :test do
+  gem 'dotenv-rails'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
   gem 'pry'
+  # gem 'pry-nav'
   gem 'shoulda-matchers'
+  # gem 'jasmine'
+  gem 'jasmine-rails'
+  # gem 'capybara-webkit'
+  gem 'show_me_the_cookies'
 end
 group :test do
   gem 'capybara'
-  gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+  # gem 'webmock'
+  gem 'vcr'
 end

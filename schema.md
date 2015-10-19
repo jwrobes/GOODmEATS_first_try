@@ -34,7 +34,7 @@ quote=""/>
     <type label="SET" length="1" sql="SET" quote=""/>
     <type label="Bit" length="0" sql="bit" quote=""/>
   </group>
-</datatypes><table x="765" y="433" name="users">
+</datatypes><table x="754" y="483" name="users">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -48,7 +48,7 @@ quote=""/>
 <part>id</part>
 </key>
 </table>
-<table x="493" y="135" name="restaurants">
+<table x="494" y="145" name="restaurants">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -77,12 +77,9 @@ quote=""/>
 <part>id</part>
 </key>
 </table>
-<table x="275" y="232" name="menu_items">
+<table x="232" y="200" name="restaurant_meats">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
-<default>NULL</default></row>
-<row name="name" null="1" autoincrement="0">
-<datatype>VARCHAR</datatype>
 <default>NULL</default></row>
 <row name="description" null="1" autoincrement="0">
 <datatype>MEDIUMTEXT</datatype>
@@ -91,11 +88,15 @@ quote=""/>
 <datatype>INTEGER</datatype>
 <default>NULL</default><relation table="restaurants" row="id" />
 </row>
+<row name="meat_id" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="meats" row="id" />
+</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="474" y="482" name="sources">
+<table x="529" y="519" name="sources">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -118,7 +119,7 @@ quote=""/>
 <part>id</part>
 </key>
 </table>
-<table x="706" y="248" name="users_restaurants">
+<table x="694" y="261" name="users_restaurants">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -137,16 +138,30 @@ quote=""/>
 <part>id</part>
 </key>
 </table>
-<table x="274" y="421" name="meats">
+<table x="101" y="368" name="meats">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
 <row name="name" null="1" autoincrement="0">
 <datatype>MEDIUMTEXT</datatype>
 <default>NULL</default></row>
-<row name="item_id" null="1" autoincrement="0">
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="264" y="516" name="source_meats">
+<row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
-<default>NULL</default><relation table="menu_items" row="id" />
+<default>NULL</default></row>
+<row name="description" null="1" autoincrement="0">
+<datatype>MEDIUMTEXT</datatype>
+<default>NULL</default></row>
+<row name="rating" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="meat_id" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="meats" row="id" />
 </row>
 <row name="source_id" null="1" autoincrement="0">
 <datatype>INTEGER</datatype>
