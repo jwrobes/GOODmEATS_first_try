@@ -17,6 +17,7 @@ gem 'simple_form'
 gem 'travis-lint'
 gem 'httparty'
 gem 'sinatra'
+gem 'geocoder'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
