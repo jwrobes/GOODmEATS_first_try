@@ -11,11 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140926183620) do
+ActiveRecord::Schema.define(version: 20151022025242) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
   enable_extension "hstore"
+
+  create_table "meats", force: true do |t|
+    t.string "name"
+  end
+
+  create_table "restaurant_meats", force: true do |t|
+    t.integer "restaurant_id"
+    t.integer "source_meat_id"
+    t.text    "description"
+  end
+
+  add_index "restaurant_meats", ["restaurant_id"], name: "index_restaurant_meats_on_restaurant_id", using: :btree
+  add_index "restaurant_meats", ["source_meat_id"], name: "index_restaurant_meats_on_source_meat_id", using: :btree
 
   create_table "restaurants", force: true do |t|
     t.string "name"
@@ -23,6 +36,21 @@ ActiveRecord::Schema.define(version: 20140926183620) do
     t.float  "latitude"
     t.float  "longitude"
     t.hstore "location"
+  end
+
+  create_table "source_meats", force: true do |t|
+    t.integer "source_id"
+    t.integer "meat_id"
+    t.string  "name"
+    t.text    "description"
+    t.integer "rating",      limit: 2
+  end
+
+  add_index "source_meats", ["meat_id"], name: "index_source_meats_on_meat_id", using: :btree
+  add_index "source_meats", ["source_id"], name: "index_source_meats_on_source_id", using: :btree
+
+  create_table "sources", force: true do |t|
+    t.string "name"
   end
 
   create_table "users", force: true do |t|

@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   resources :users
   resources :restaurants
   resources :add_restaurants
+  get '/ajax/get_source_meats/', to: 'ajax#get_source_meats'
+
 end

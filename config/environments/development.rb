@@ -22,9 +22,8 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
-  # Debug mode disables concatenation and preprocessing of assets.
-  # This option may cause significant delays in view rendering with a large
-  # number of complex assets.
+  config.react.variant = :development
+
   config.assets.debug = true
 
   config.action_mailer.smtp_settings = {

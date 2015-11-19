@@ -18,6 +18,9 @@ gem 'travis-lint'
 gem 'httparty'
 gem 'sinatra'
 gem 'geocoder'
+gem 'react-rails'
+gem 'underscore-rails'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
@@ -31,7 +34,7 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
   gem 'pry'
-  # gem 'pry-nav'
+  gem 'pry-nav'
   gem 'shoulda-matchers'
   # gem 'jasmine'
   gem 'jasmine-rails'

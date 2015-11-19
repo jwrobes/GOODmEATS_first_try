@@ -1,1 +1,7 @@
-<h2>	<%= @restaurant.name %> </h2>
+<h2><%= @new_restaurant.name %></h2>
+
+<%= react_component "RestaurantForm", 
+          restaurant: @new_restaurant,
+          meats: Meat.all
+%>
+
